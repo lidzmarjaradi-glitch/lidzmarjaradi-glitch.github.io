@@ -166,5 +166,3 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
   });
   document.documentElement.classList.add("has-motion");
 }
-
-document.querySelector("#current-year").textContent = String(new Date().getFullYear());
